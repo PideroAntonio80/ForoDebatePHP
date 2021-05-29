@@ -1,0 +1,43 @@
+.container {
+    background-color: lightskyblue;
+    border-radius: 15px;
+    box-shadow: -3px 3px 15px 0px #555;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mensaje {
+    width: 100%;
+    height: 10em;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 12%;
+    margin-bottom: 10px;
+    background: #1668c4;
+    color: ivory;
+    border: none;
+    border-radius: 5px;
+    height: 2em;
+}
+input[type="submit"]:hover {
+    background: #4a88f4;
+    cursor:pointer;
+}
+
+#regreso  {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#regreso a {
+    text-decoration: none;
+}

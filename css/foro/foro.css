@@ -1,0 +1,115 @@
+body {
+    background-color: #f3f3f3;
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 30px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    border-radius: 0;
+    border-color: #0e497b;
+    background-color: #105289;
+    color: #fff;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu .menu-left {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.menu .enlaces {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.menu .enlaces > a {
+    padding: 10px;
+    color: #105289;
+}
+
+.temas th {
+    background-color: #105289;
+    color: #fff;
+}
+
+.tema,
+.comentario {
+    background-color: #e0d8d0;
+}
+
+.tema:hover,
+.comentario:hover {
+    background-color: #d7cdc2;
+}
+
+.tema:nth-child(even),
+.comentario:nth-child(even) {
+    background-color: #dcd5d5;
+}
+
+.tema:nth-child(even):hover,
+.comentario:nth-child(even):hover {
+    background-color: #cec4c4;
+}
+
+.tema .titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #105289;
+    margin-bottom: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.tema .titulo:hover {
+    color: #d31141;
+    text-decoration: underline;
+}
+
+.tema .usuario,
+.comentario .usuario {
+    color: #105289;
+}
+
+.tema .fecha,
+.comentario .fecha {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.comentario .td-usuario {
+    width: 20%;
+}
+
+.comentario .titulo-tema {
+    color: #105289;
+    font-weight: bold;
+    font-size: 28px;
+}
